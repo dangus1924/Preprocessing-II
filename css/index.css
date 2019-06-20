@@ -168,6 +168,10 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header .h1 .nav {
+  display: flex;
+  flex-flow: row ;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
