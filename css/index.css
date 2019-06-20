@@ -168,9 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.header .h1 .nav {
+.main-header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.main-header .nav-container {
   display: flex;
-  flex-flow: row ;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-header .nav-container .nav-logo {
+  font-weight: bold;
+}
+.main-header .nav-container .nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .footer {
   width: 100%;
