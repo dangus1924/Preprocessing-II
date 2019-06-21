@@ -9,21 +9,36 @@
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
-        
-    .nav-logo {
-        font-weight: bold;
-    }
 
-    .nav {
-        width: 40%;
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
-    
-    // .a {
-        
-    // }
+        @media @phone {
+            flex-direction: column;
+        }
+                
+        .nav-logo {
+            font-weight: bold;
+            @media @phone {
 
-}
+            }            
+        }
+
+        .nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            
+            @media @phone {
+                width: 100%;
+                .center;
+            }       
+        
+            .nav-links {
+                .regular-font-sizing;
+                .center;
+                padding-bottom: 0;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+        }
+    }
 }
